@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::. Area del Cuadrado</title>
+    <link rel="stylesheet" href="css/estilo1.css">
+    <script type="text/javascript" src="js/codigo.js"></script> 
+</head>
+<body>
+    
+<header id="cabecera">CALCULOTRON</header> 
+<nav> 
+   <ul>
+        <li><a href="index.html"> Inicio </a></li>
+        <li><a class="active" href="areaCuadrado.html">  Área Cuadrado</a></li> 
+        <li><a href="areaRectangulo.html">  Área Rectangulo</a></li> 
+        <li><a   href="areaTriangulo.html">  Área Rectangulo</a></li> 
+      </ul>  
+      
+</nav>
+<br>
+<section id="central">
+
+<h1>Info</h1>
+<p>El área de un cuadrado se calcula a partir de uno de sus lados (a). 
+Es el producto de la base por la altura del cuadrado, ya que al ser ambas iguales, el área será un lado al cuadrado.</p>
+<img src="images/cuadrado.png">
+ 
+<fieldset>
+ <legend>Datos</legend>
+
+        <label>Ingrese lado del cuadrado:</label>
+        <input type="number" id="cajaLado" placeholder="Valor númerico"><br><br> 
+        <label>Área calculada es:</label>
+        <input type="number" id="cajaSalida" readonly placeholder="Resultado"><br><br>
+
+        <button onclick="areaCuadrado()">Calcular</button>
+</fieldset>
+ 
+</section>   
+<br>
+<footer>
+    TÉCNICO EN SISTEMAS - INANDINA
+</footer>
+</body>
+</html>
